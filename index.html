@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Fit your body</title>
+    <!---------------Font Awesome----------------->
+    <link href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css" rel="stylesheet">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="left"><a href="index.html"><img src="./images/logo1.png" alt="logo">
+                <div>
+                    Fit Body
+                </div>
+            </a>
+        </div>
+        <div class="mid">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3>Join the best Gym of Bhubaneswar</h3>
+        <form>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Age" required>
+            </div>
+            <div class="form-group-radio">
+                <h3>Select Gender</h3>
+                <div class="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                </div>
+                <div class="female">
+                    <label for="female">Fe male</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+                <div class="other">
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other">
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Locality" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="name" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" name="name" placeholder="Enter your Contact number" required>
+            </div>
+            <button onclick="myFunction()" class="btn">Submit</button>
+        </form>
+    </div>
+
+    <aside>
+        <div class="adtext"> Register with us and get all premium benifits. </div>
+        <button class="btn">Learn more</button>
+    </aside>
+
+    <script>
+        function myFunction() {
+            alert("Form submitted");
+        }
+    </script>
+</body>
+
+</html>
